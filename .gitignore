@@ -1,4 +1,21 @@
 /node_modules/
-/.idea/modules.xml
-/.idea/vcs.xml
-/.idea/webpack.iml
+/dist/
+.editorconfig
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+yarn.lock
+vcs.xml
+*.iml
+/webapck01/node_modules/

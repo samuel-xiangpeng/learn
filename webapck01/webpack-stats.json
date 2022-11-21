@@ -1,0 +1,2685 @@
+{
+  "hash": "a6d8d067e5cf2d908a94",
+  "version": "5.75.0",
+  "time": null,
+  "publicPath": "/",
+  "outputPath": "/Users/zhouxiangpeng/codebase/webpack/dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.56527964e6ab218b32e4.js"
+    ],
+    "runtime": [
+      "runtime.825c05e0a54616c208a6.js"
+    ],
+    "vendors": [
+      "vendors.207b1b958f83ab60cfa4.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendors.207b1b958f83ab60cfa4.js",
+      "size": 1022412,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "207b1b958f83ab60cfa4",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "vendors.207b1b958f83ab60cfa4.js.LICENSE.txt"
+        }
+      },
+      "chunkNames": [
+        "vendors"
+      ],
+      "chunkIdHints": [
+        "vendor"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "vendors.207b1b958f83ab60cfa4.js.LICENSE.txt",
+          "size": 336,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        216
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.825c05e0a54616c208a6.js",
+      "size": 16798,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "825c05e0a54616c208a6",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        666
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.56527964e6ab218b32e4.js",
+      "size": 5153,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "56527964e6ab218b32e4",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        826
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 377,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: vendor) (name: vendors)",
+      "size": 552971,
+      "sizes": {
+        "javascript": 552971
+      },
+      "names": [
+        "vendors"
+      ],
+      "idHints": [
+        "vendor"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "vendors.207b1b958f83ab60cfa4.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "c39b0114e6cc3bd91a1f",
+      "childrenByOrder": {},
+      "id": 216,
+      "siblings": [
+        666,
+        826
+      ],
+      "parents": [
+        216,
+        666,
+        826
+      ],
+      "children": [
+        216
+      ],
+      "origins": [
+        {
+          "module": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "4:25-41",
+          "request": "lodash",
+          "moduleId": null
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 5103,
+      "sizes": {
+        "runtime": 5103
+      },
+      "names": [
+        "runtime"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.825c05e0a54616c208a6.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "c1a998c234cc3e73da59",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [
+        216,
+        826
+      ],
+      "parents": [],
+      "children": [
+        216
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 2060,
+      "sizes": {
+        "javascript": 2060
+      },
+      "names": [
+        "index"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "index.56527964e6ab218b32e4.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "1b02fbbb0dee538e5cf7",
+      "childrenByOrder": {},
+      "id": 826,
+      "siblings": [
+        216,
+        666
+      ],
+      "parents": [],
+      "children": [
+        216
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 1449,
+      "sizes": {
+        "javascript": 1449
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 57,
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "index",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/css-loader/dist/cjs.js!./src/index.css: Module uses module.id",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/style-loader/dist/runtime/insertBySelector.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/style-loader/dist/runtime/insertStyleElement.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/style-loader/dist/runtime/styleDomAPI.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/style-loader/dist/runtime/styleTagTransform.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 309,
+          "sizes": {
+            "javascript": 309
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 9:0-11:2"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1140,
+          "sizes": {
+            "javascript": 1140
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index.css",
+              "loc": "1:0-21",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 12:0-17"
+          ],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1140,
+      "sizes": {
+        "javascript": 1140
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "name": "./src/index.css",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./index.css",
+          "loc": "1:0-21",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 12:0-17"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 544098,
+      "sizes": {
+        "javascript": 544098
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 486,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:50-57",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:62-78",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:82-89",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:63-69",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:74-80",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:93-99",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "17209:7-11",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "4:25-41",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 17209:7-11",
+        "CommonJS bailout: exports is used directly at 439:50-57",
+        "CommonJS bailout: exports is used directly at 439:82-89",
+        "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2500,
+      "sizes": {
+        "javascript": 2500
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 379,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "2:6-95",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "22:13-16",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "module": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "75:0-14",
+          "moduleId": 379,
+          "resolvedModuleId": 379
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "2:6-95",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+          "loc": "22:13-16",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 75:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 75:0-104:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1412,
+      "sizes": {
+        "javascript": 1412
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 795,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "3:6-85",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "19:17-23",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "70:0-14",
+          "moduleId": 795,
+          "resolvedModuleId": 795
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "3:6-85",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleDomAPI.js",
+          "loc": "19:17-23",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 70:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 70:0-24",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1005,
+      "sizes": {
+        "javascript": 1005
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 569,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "4:6-92",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "17:23-36",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "39:0-14",
+          "moduleId": 569,
+          "resolvedModuleId": 569
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "4:6-92",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertBySelector.js",
+          "loc": "17:23-36",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 39:0-14",
+        "Statement (VariableDeclaration) with side effects in source code at 3:0-14",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 300,
+      "sizes": {
+        "javascript": 300
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "name": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 565,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "5:6-111",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "15:24-37",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "module": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "12:0-14",
+          "moduleId": 565,
+          "resolvedModuleId": 565
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "5:6-111",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+          "loc": "15:24-37",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 12:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 12:0-48",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 286,
+      "sizes": {
+        "javascript": 286
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "name": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 216,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "6:6-104",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "20:29-47",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "module": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "11:0-14",
+          "moduleId": 216,
+          "resolvedModuleId": 216
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "6:6-104",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/insertStyleElement.js",
+          "loc": "20:29-47",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 11:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 11:0-36",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 382,
+      "sizes": {
+        "javascript": 382
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "name": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 589,
+      "issuerId": null,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "7:6-104",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "14:28-47",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "module": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "moduleName": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "resolvedModule": "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "16:0-14",
+          "moduleId": 589,
+          "resolvedModuleId": 589
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "7:6-104",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!../node_modules/style-loader/dist/runtime/styleTagTransform.js",
+          "loc": "14:28-47",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 16:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 16:0-35",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 611,
+      "sizes": {
+        "javascript": 611
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 424,
+      "issuerId": null,
+      "chunks": [
+        826
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "8:6-99",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "22:17-24",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "26:0-69",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "26:0-69",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "27:22-29",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "27:33-47",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "27:50-64",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "8:6-99",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "22:17-24",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "26:0-69",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony export imported specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "26:0-69",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "27:22-29",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "27:33-47",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js|ca14947caf72f812487b4dee481685b0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "!!../node_modules/css-loader/dist/cjs.js!./index.css",
+          "loc": "27:50-64",
+          "moduleId": 57,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-97",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 685,
+      "sizes": {
+        "javascript": 685
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "id": 424
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 537,
+      "issuerId": 424,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "2:0-106",
+          "moduleId": 424,
+          "resolvedModuleId": 424
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "loc": "4:58-95",
+          "moduleId": 424,
+          "resolvedModuleId": 424
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": 537,
+          "resolvedModuleId": 537
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-19:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2303,
+      "sizes": {
+        "javascript": 2303
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/api.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/style-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./src/index.css",
+          "id": null
+        },
+        {
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "id": 424
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 645,
+      "issuerId": 424,
+      "chunks": [
+        216
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": 424,
+          "resolvedModuleId": 424
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/cjs.js!/Users/zhouxiangpeng/codebase/webpack/src/index.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": 424,
+          "resolvedModuleId": 424
+        },
+        {
+          "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": 645,
+          "resolvedModuleId": 645
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-85:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 886,
+      "sizes": {
+        "runtime": 886
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/chunk loaded",
+      "name": "webpack/runtime/chunk loaded",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 267,
+      "sizes": {
+        "runtime": 267
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1141,
+      "sizes": {
+        "runtime": 1141
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/create fake namespace object",
+      "name": "webpack/runtime/create fake namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 200,
+      "sizes": {
+        "runtime": 200
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1560,
+      "sizes": {
+        "runtime": 1560
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 35,
+      "sizes": {
+        "runtime": 35
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/nonce",
+      "name": "webpack/runtime/nonce",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        666,
+        216,
+        826
+      ],
+      "assets": [
+        {
+          "name": "runtime.825c05e0a54616c208a6.js"
+        },
+        {
+          "name": "vendors.207b1b958f83ab60cfa4.js"
+        },
+        {
+          "name": "index.56527964e6ab218b32e4.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        666,
+        216,
+        826
+      ],
+      "assets": [
+        {
+          "name": "runtime.825c05e0a54616c208a6.js"
+        },
+        {
+          "name": "vendors.207b1b958f83ab60cfa4.js"
+        },
+        {
+          "name": "index.56527964e6ab218b32e4.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "0ecde4b1eb3610bb4179",
+      "version": "5.75.0",
+      "time": 78,
+      "builtAt": 1668857812595,
+      "publicPath": "",
+      "outputPath": "/Users/zhouxiangpeng/codebase/webpack/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 955,
+          "sizes": {
+            "javascript": 515,
+            "runtime": 440
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "09aeecbafc197c109365",
+          "childrenByOrder": {},
+          "id": 563,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/default_index.ejs"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 163,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 438,
+          "sizes": {
+            "javascript": 438
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/default_index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "nameForCondition": "/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/default_index.ejs",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 893,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/default_index.ejs",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModuleIdentifier": "/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:103-117",
+              "moduleId": 893,
+              "resolvedModuleId": 893
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/lib/loader.js!/Users/zhouxiangpeng/codebase/webpack/node_modules/html-webpack-plugin/default_index.ejs",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:103-117",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-103",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 325,
+          "sizes": {
+            "runtime": 325
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
